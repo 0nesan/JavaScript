@@ -24,4 +24,3 @@ function addBtnFn(){
 }
 
 btns.forEach( e => e.addEventListener('click',addBtnFn));
-console.timeEnd('얼마나 걸릴까');

@@ -1,21 +1,21 @@
 console.time('얼마나 걸릴까');
 
-/** @type {object} 숫자입력란 */
+/** @type {HTMLElement} 숫자입력란 */
 const userInput = document.getElementById('input-number');
-/** @type {object} 더하기버튼 */
+/** @type {HTMLElement} 더하기버튼 */
 const addBtn = document.getElementById('btn-add');
-/** @type {object} 빼기버튼 */
+/** @type {HTMLElement} 빼기버튼 */
 const subtractBtn = document.getElementById('btn-subtract');
-/** @type {object} 곱하기버튼 */
+/** @type {HTMLElement} 곱하기버튼 */
 const multiplyBtn = document.getElementById('btn-multiply');
-/** @type {object} 나누기버튼 */
+/** @type {HTMLElement} 나누기버튼 */
 const divideBtn = document.getElementById('btn-divide');
-/** @type {object} 버튼전체 */
+/** @type {HTMLElement} 버튼전체 */
 const btns = document.querySelectorAll('#calc-actions button');
 
-/** @type {object} h1 계산값 들어갈 공간 */
+/** @type {HTMLElement} h1 계산값 들어갈 공간 */
 const currentResultOutput = document.getElementById('current-result');
-/** @type {object} h1 계산식 들어갈 공간 */
+/** @type {HTMLElement} h1 계산식 들어갈 공간 */
 const currentCalculationOutput = document.getElementById('current-calculation');
 
 
